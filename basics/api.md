@@ -1,4 +1,4 @@
-### BASICS
+# BASICS
 
 ## What is an API?
 
@@ -38,3 +38,5 @@ GET https://api.weather.com/current?location=New_York
 **Tools:** The endpoints (like https://api.weather.com/current) and methods (like GET) provided by the API.
 **Rules:** The API documentation specifies how to format requests and what kind of responses to expect, ensuring consistent and reliable communication between the weather app and the weather service.
 This example illustrates how an API serves as a bridge, enabling your weather app (the application) to fetch and display up-to-date weather information by interacting with the weather service's server.
+
+[API Design Best Practices Article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)

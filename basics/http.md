@@ -110,22 +110,24 @@ Request Header: This type of headers contains information about the fetched requ
 Response Header: This type of headers contains the location of the source that has been requested by the client.
 Entity Header: This type of headers contains the information about the body of the resources like MIME type, Content-length.
 
-(Read More)[https://www.geeksforgeeks.org/http-headers/]
+[Read More](https://www.geeksforgeeks.org/http-headers/)
 
 ## HTTP Cookies
 
-A cookie (also known as a web cookie or browser cookie) is a small piece of data a server sends to a user's web browser. The browser may store cookies, create new cookies, modify existing ones, and send them back to the same server with later requests. Cookies enable web applications to store limited amounts of data and remember state information; by default the HTTP protocol is stateless.
+HTTP protocol is stateless by default - that means it is going to constantly forget what the user has done on the site unless we have a way to remember that.  
+A cookie (also known as a web cookie or browser cookie) is a small piece of data a server sends to a user's web browser. The browser may store cookies, create new cookies, modify existing ones, and send them back to the same server with later requests. **Cookies enable web applications to store limited amounts of data and remember state information; by default the HTTP protocol is stateless.**
+Once the cookies are set by the server in the client(browser), the subsequent requests made by the client to the same server(same domain) will include those cookies in the request headers.
 
-What cookies are used for
+**What cookies are used for**
 Typically, the server will use the contents of HTTP cookies to determine whether different requests come from the same browser/user and then issue a personalized or generic response as appropriate.
 
-Cookies are mainly used for three purposes:
+**Cookies are mainly used for three purposes:**
 
-Session management: User sign-in status, shopping cart contents, game scores, or any other user session-related details that the server needs to remember.
-Personalization: User preferences such as display language and UI theme.
-Tracking: Recording and analyzing user behavior.
+**Session management:** User sign-in status, shopping cart contents, game scores, or any other user session-related details that the server needs to remember.
+**Personalization:** User preferences such as display language and UI theme.
+**Tracking:** Recording and analyzing user behavior.
 
-(Read More)[https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies]
+[Read More](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 ## CORS - Cross-Origin Resource Sharing
 
